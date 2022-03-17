@@ -71,7 +71,7 @@ return [
             'database' => 'd7jg22r0tlhilo',
             'username' => 'lwkqudlidhkvub',
             'password' => '75244a75df7002351a32a6c815113cc1251e7e555d9d6a823e42b50b522c4c5d',
-            'charset' => 'SQL_ASCII',
+            'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
             'search_path' => 'public',
