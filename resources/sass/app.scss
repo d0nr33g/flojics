@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font-Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+.logo {
+    max-height: 70px;
+}
+main{
+    background-color: #c4d9f27d;
+}
+i{
+    color: #1c6fcd;
+    margin-right: 5px;
+}
+input, select{
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #86b2e5;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+.blue-text{
+    color: #1c6fcd;
+}
+.flo-create label{
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+}
+.flo-card-img{
+    max-width: 200px;
+    margin: 20px;
+}
+.flo-img-sm{
+    max-width: 50%;
+}

@@ -1,0 +1,24 @@
+<?php
+
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\DoctorController;
+use App\Models\Doctor;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();
+Route::get('/', [DoctorController::class, 'index'])->name('home');
+Route::resource('doctor','App\Http\Controllers\DoctorController');
+Route::resource('doctor.booking','App\Http\Controllers\BookingController');
+Route::get('/booking', [BookingController::class, 'list_all']);
