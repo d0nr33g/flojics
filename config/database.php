@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => 'pgsql',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,12 +65,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('postgres://lwkqudlidhkvub:75244a75df7002351a32a6c815113cc1251e7e555d9d6a823e42b50b522c4c5d@ec2-34-253-29-48.eu-west-1.compute.amazonaws.com:5432/d7jg22r0tlhilo'),
-            'host' => env('DB_HOST', 'ec2-34-253-29-48.eu-west-1.compute.amazonaws.com'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'd7jg22r0tlhilo'),
-            'username' => env('DB_USERNAME', 'lwkqudlidhkvub'),
-            'password' => env('DB_PASSWORD', '75244a75df7002351a32a6c815113cc1251e7e555d9d6a823e42b50b522c4c5d'),
+            'url' => 'postgres://lwkqudlidhkvub:75244a75df7002351a32a6c815113cc1251e7e555d9d6a823e42b50b522c4c5d@ec2-34-253-29-48.eu-west-1.compute.amazonaws.com:5432/d7jg22r0tlhilo',
+            'host' => 'ec2-34-253-29-48.eu-west-1.compute.amazonaws.com',
+            'port' => '5432',
+            'database' => 'd7jg22r0tlhilo',
+            'username' => 'lwkqudlidhkvub',
+            'password' => '75244a75df7002351a32a6c815113cc1251e7e555d9d6a823e42b50b522c4c5d',
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
